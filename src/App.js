@@ -1,17 +1,12 @@
 import { Component, Fragment } from "react";
 import "./App.css";
+import Game from "./components/Game";
 
 class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {};
-  }
-
   render() {
     return (
       <Fragment>
-        <h1></h1>
+        <Game />
       </Fragment>
     );
   }
